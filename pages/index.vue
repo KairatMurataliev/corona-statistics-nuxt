@@ -4,6 +4,8 @@
       <select-country :options="countriesList" @getData="fetchCountryBySlug"/>
     </b-row>
 
+    <h2>{{ topRecovered && topRecovered.Country}}</h2>
+
     <b-row>
       <b-col>
         <last-five-days

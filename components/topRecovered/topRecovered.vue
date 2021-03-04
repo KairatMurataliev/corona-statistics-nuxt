@@ -1,6 +1,7 @@
 <template>
   <div v-if="topRecovered">
-    <b-jumbotron :header="`Day with top recovered cases: ${$moment(topRecovered.Date).format('MMM Do YY')}`">
+    <b-jumbotron>
+      <h4>Day with top recovered cases: {{$moment(topRecovered.Date).format('MMM Do YY')}}</h4>
       <p><strong>Recovered :</strong> {{ topRecovered.Recovered }}</p>
       <p><strong>Confirmed :</strong> {{ topRecovered.Confirmed }}</p>
       <p><strong>Active :</strong> {{ topRecovered.Active }}</p>
