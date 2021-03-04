@@ -37,6 +37,7 @@ export default {
   modules: [
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
+    '@nuxtjs/moment'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

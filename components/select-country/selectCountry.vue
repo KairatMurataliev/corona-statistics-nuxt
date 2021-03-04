@@ -1,7 +1,6 @@
 <template>
   <div>
     <b-form-select v-model="selected" @change="onChange($event)">
-      <option value="kyrgyzstan" selected>Kyrgyzstan</option>
       <option
         v-for="option of options"
         :value="option.Slug"

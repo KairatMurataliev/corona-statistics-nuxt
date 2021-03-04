@@ -11,7 +11,8 @@ const createStore = () => {
   return new Vuex.Store({
     state: {
       countriesList: [],
-      oneCountry: null
+      oneCountry: null,
+      topRecovered: null
     },
     mutations,
     actions,
